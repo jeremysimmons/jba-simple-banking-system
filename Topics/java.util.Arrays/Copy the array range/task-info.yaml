@@ -1,0 +1,27 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.Scanner;
+    import java.util.Arrays;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            int[] arr = {scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt()};
+            int[] newArr = // write your code here
+
+            System.out.println(/* Print the new array here */);
+        }
+    }
+  learner_created: false
+- name: src/input.txt
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/19372#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 03:35:34 UTC
+record: -1
